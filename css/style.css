@@ -44,93 +44,99 @@ body {
 * {
     box-sizing: border-box;
 }
-    .gift-cards {
-        width: 100%;
-        padding: 20px;
-        position: relative;
-    }
 
-    .title {
-        margin: 30px auto;
-        text-align: center;
-        color: cornflowerblue;
-    }
+.gift-cards {
+    width: 100%;
+    padding: 20px;
+    position: relative;
+}
 
-    .detail {
-        color: cornflowerblue;
-        text-align: center;
-        font-size: 15px;
-    }
+.title {
+    text-align: center;
+    color: cornflowerblue;
+}
 
-    .gifts {
-        width: 50%;
-        left: 20%;
-        position: absolute;
-    }
+.detail {
+    color: cornflowerblue;
+    text-align: center;
+    font-size: 15px;
+}
 
-    .gift-2 {
-        width: 50%;
-        right: 8%;
-        position: absolute;
-    }
+.gifts {
+    width: 50%;
+    left: 20%;
+    position: absolute;
+}
 
-    .gift-container {
-        width: 80%;
-        margin: auto;
-    }
+.gift-2 {
+    width: 50%;
+    right: 8%;
+    position: absolute;
+}
 
-    .gift-card {
-        width: 50%;
-        position: relative;
-    }
+.gift-container {
+    width: 60%;
+    margin: auto;
+}
 
-    .contain {
-        position: absolute;
-        top: 0px;
-    }
+.gift-card {
+    width: 50%;
+    position: relative;
+}
 
-    .contain-2 {
-        position: absolute;
-    }
+.contain {
+    position: absolute;
+    top: 0px;
+}
 
-    .fas {
-        font-size: 70px;
-        color: white;
-        padding: 80px;
-        border-radius: 50%;
-        position: relative;
-        background-color: cornflowerblue;
-        margin-top: 20px;
-        margin-left: 20px;
-    }
+.contain-2 {
+    position: absolute;
+    width: 252px;
+}
 
-    .red-color {
-        background-color: hotpink;
-    }
+.fas {
+    font-size: 70px;
+    color: white;
+    padding: 70px;
+    border-radius: 50%;
+    position: relative;
+    background-color: cornflowerblue;
+    margin-top: 24px;
+    margin-left: 21px;
+}
 
-    .blue-color {
-        background-color: cornflowerblue;
-    }
+.red-color {
+    background-color: hotpink;
+}
 
-    .fab {
-        font-size: 70px;
-        border-radius: 50%;
-        color: white;
-        padding: 80px 90px;
-        border-radius: 50%;
-        border-color: lightblue;
-        box-shadow: 0px 2px 15px #888888;
-        border-width: 20px;
-        border-style: solid;
-    }
+.blue-color {
+    background-color: cornflowerblue;
+}
 
-    .pink-color {
-        border-color: pink
-    }
+.fab {
+    font-size: 70px;
+    border-radius: 50%;
+    color: white;
+    border-radius: 50%;
+    border-color: lightblue;
+    box-shadow: 0px 2px 15px #888888;
+    border-width: 20px;
+    border-style: solid;
+    text-align: center;
+    padding: 25px;
+}
+.font{
+    font-size: 15px;
+    padding: 0 22px;
+}
 
-    .gift-card:hover .contain {
-        position: absolute;
-        top: 400px;
-        transition: 1s;
-        transition-timing-function: cubic-bezier(0, 1.77, 1, -0.47);
-    }
+.pink-color {
+    border-color: pink
+}
+
+.gift-card:hover .contain {
+    position: absolute;
+    top: 300px;
+    transition: .4s;
+    transition-timing-function: cubic-bezier(0,1.55,1,-0.48);
+}
