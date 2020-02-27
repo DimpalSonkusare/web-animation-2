@@ -1,0 +1,94 @@
+/*
+.gifts {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.gift-image {
+    width: 50%;
+    float: left;
+    font-size: 70px;
+}
+
+.fas {
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    padding: 80px;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 20px;
+    border-color: gainsboro;
+    color: white;
+    position: relative;
+    box-shadow: 0px 2px 15px #888888;
+}
+
+.pink {
+    background-color: magenta;
+    border-color: lightpink;
+}
+
+.gift-image:hover {
+    transition-timing-function: cubic-bezier(0, 1.41, .45, -0.36);
+    transition: 2s all;
+}*/
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    color: cornflowerblue;
+}
+
+.detail {
+    color: cornflowerblue;
+    text-align: center;
+}
+.gifts{
+    width: 100%;
+}
+.gift-container{
+    width: 80%;
+    margin: auto;
+}
+.gift-card{
+    width: 50%;
+    position: relative;
+}
+.contain{
+    position: absolute;
+    top: 0px;
+}
+.contain-2{
+    position: absolute;
+}
+.fas{
+    font-size: 70px;
+    color: white;
+    padding: 80px;
+    border-radius: 50%;
+    position: relative;
+    background-color: cornflowerblue;
+}
+.fab{
+    font-size: 70px;
+    border-radius: 50%;
+    color: white;
+    padding: 80px 90px;
+    background-color: cornflowerblue;
+}
+.gift-card:hover .contain{
+    position: absolute;
+    top: 400px;
+    transition: 1s;
+    transition-timing-function: cubic-bezier(0,1.5,1,-0.08);
+}
